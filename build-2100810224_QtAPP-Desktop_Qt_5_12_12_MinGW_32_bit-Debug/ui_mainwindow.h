@@ -28,6 +28,7 @@ public:
     QWidget *centralwidget;
     QPushButton *pushButton;
     QTextBrowser *textBrowser;
+    QPushButton *pushButton_2;
     QMenuBar *menubar;
     QMenu *menu;
     QStatusBar *statusbar;
@@ -47,6 +48,9 @@ public:
         textBrowser = new QTextBrowser(centralwidget);
         textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
         textBrowser->setGeometry(QRect(60, 30, 661, 331));
+        pushButton_2 = new QPushButton(centralwidget);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(583, 420, 111, 51));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -69,6 +73,7 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton->setText(QApplication::translate("MainWindow", "GetData", nullptr));
+        pushButton_2->setText(QApplication::translate("MainWindow", "Close", nullptr));
         menu->setTitle(QApplication::translate("MainWindow", "\345\225\246\345\225\246\345\225\246", nullptr));
     } // retranslateUi
 
