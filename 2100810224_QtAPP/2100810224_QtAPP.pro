@@ -17,11 +17,13 @@ TARGET = 2100810224_QtAPP   #EXE文件名称
 SOURCES += \            #源文件
     defaultconfig.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    network.cpp
 
 HEADERS += \            #头文件
     defaultconfig.h \
-    mainwindow.h
+    mainwindow.h \
+    network.h
 
 FORMS += \
     mainwindow.ui

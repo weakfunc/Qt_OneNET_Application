@@ -2,13 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QNetworkAccessManager>
-#include <QNetworkReply>
-#include <QNetworkRequest>
 #include <QJsonDocument>
 #include <QJsonArray>
 #include <QJsonObject>
 #include "defaultconfig.h"
+#include "network.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,7 +18,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    void recerivePackage(QString rcivPage, packageParam *package);
 private:
     Ui::MainWindow *ui;
     QNetworkAccessManager *m_manager;
