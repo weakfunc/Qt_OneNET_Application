@@ -25,11 +25,13 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QAction *actions;
     QWidget *centralwidget;
     QPushButton *pushButton;
     QTextBrowser *textBrowser;
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
+    QPushButton *pushButton_4;
     QMenuBar *menubar;
     QMenu *menu;
     QStatusBar *statusbar;
@@ -38,27 +40,34 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(1140, 786);
+        actions = new QAction(MainWindow);
+        actions->setObjectName("actions");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(60, 380, 291, 71));
+        pushButton->setGeometry(QRect(150, 450, 291, 71));
         pushButton->setMouseTracking(false);
         pushButton->setCheckable(false);
         textBrowser = new QTextBrowser(centralwidget);
         textBrowser->setObjectName("textBrowser");
-        textBrowser->setGeometry(QRect(60, 30, 661, 331));
+        textBrowser->setGeometry(QRect(120, 50, 661, 331));
         pushButton_2 = new QPushButton(centralwidget);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(380, 380, 111, 51));
+        pushButton_2->setGeometry(QRect(460, 470, 111, 51));
         pushButton_3 = new QPushButton(centralwidget);
         pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setGeometry(QRect(530, 380, 111, 51));
+        pushButton_3->setGeometry(QRect(650, 470, 111, 51));
+        pushButton_4 = new QPushButton(centralwidget);
+        pushButton_4->setObjectName("pushButton_4");
+        pushButton_4->setGeometry(QRect(150, 550, 291, 71));
+        pushButton_4->setMouseTracking(false);
+        pushButton_4->setCheckable(false);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 25));
+        menubar->setGeometry(QRect(0, 0, 1140, 25));
         menu = new QMenu(menubar);
         menu->setObjectName("menu");
         MainWindow->setMenuBar(menubar);
@@ -67,6 +76,7 @@ public:
         MainWindow->setStatusBar(statusbar);
 
         menubar->addAction(menu->menuAction());
+        menu->addAction(actions);
 
         retranslateUi(MainWindow);
 
@@ -76,10 +86,12 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        actions->setText(QCoreApplication::translate("MainWindow", "new1", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "GetData", nullptr));
         pushButton_2->setText(QCoreApplication::translate("MainWindow", "Close", nullptr));
         pushButton_3->setText(QCoreApplication::translate("MainWindow", "Show", nullptr));
-        menu->setTitle(QCoreApplication::translate("MainWindow", "\345\225\246\345\225\246\345\225\246", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("MainWindow", "GetData", nullptr));
+        menu->setTitle(QCoreApplication::translate("MainWindow", "\346\226\260\345\273\272", nullptr));
     } // retranslateUi
 
 };

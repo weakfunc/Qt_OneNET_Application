@@ -5,6 +5,15 @@
 #include <QJsonDocument>
 #include <QJsonArray>
 #include <QJsonObject>
+#include <QMainWindow>
+#include <QMenuBar>
+#include <QToolBar>
+#include <QDebug>
+#include <QPushButton>
+#include <QStatusBar>
+#include <QLabel>
+#include <QDockWidget>
+#include <QTextEdit>
 #include "defaultconfig.h"
 #include "network.h"
 
@@ -23,7 +32,8 @@ private:
     QNetworkAccessManager *m_manager;
 private slots:
     void slot_receive_dataStream(QNetworkReply *reply);
-    void on_pushButton_clicked();
+    void pushButton_0();
+    void pushButton_4();
     void test();
 };
 #endif // MAINWINDOW_H

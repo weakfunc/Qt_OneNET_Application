@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1140</width>
+    <height>786</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>380</y>
+      <x>150</x>
+      <y>450</y>
       <width>291</width>
       <height>71</height>
      </rect>
@@ -36,8 +36,8 @@
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>30</y>
+      <x>120</x>
+      <y>50</y>
       <width>661</width>
       <height>331</height>
      </rect>
@@ -46,8 +46,8 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>380</y>
+      <x>460</x>
+      <y>470</y>
       <width>111</width>
       <height>51</height>
      </rect>
@@ -59,8 +59,8 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>380</y>
+      <x>650</x>
+      <y>470</y>
       <width>111</width>
       <height>51</height>
      </rect>
@@ -69,24 +69,49 @@
      <string>Show</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>550</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>GetData</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1140</width>
      <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
     <property name="title">
-     <string>啦啦啦</string>
+     <string>新建</string>
     </property>
+    <addaction name="actions"/>
    </widget>
    <addaction name="menu"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actions">
+   <property name="text">
+    <string>new1</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

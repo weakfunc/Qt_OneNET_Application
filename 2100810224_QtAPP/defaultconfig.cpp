@@ -1,20 +1,18 @@
 #include "defaultconfig.h"
-
 //设置本地设备ID
 QByteArray EQUIPMENT_ID[MAX_EQUIPMENT_NUM] = {"2174127353",
-                                           "2"};
+                                              "2"};
 
 //设置本地设备名称
 QByteArray EQUIPMENT_NAME[MAX_EQUIPMENT_NUM] = {"TEST_1",
-                                             "2"};
+                                                "2"};
 
 //设置本地设备参数数量
 int EQUIPMENT_VALUE_NUM[MAX_EQUIPMENT_NUM] = {2,2};
 
 //设置本地设备参数名称
 QByteArray EQUIPMENT_VALUE_NAME[MAX_EQUIPMENT_NUM][MAX_VALUE_NUM] = {{"parameter_1","name2"},
-                                                                  {"name3","name4"}};
-
+                                                                     {"name3","name4"}};
 
 defaultConfig productOneConfig;
 
@@ -30,8 +28,8 @@ defaultConfig::defaultConfig(){
             equipmentList[index1].valueName[index2] = EQUIPMENT_VALUE_NAME[index1][index2];
         }
     }
-    token = "version=2018-10-31&res=products%2F773E26dPR4%2Fdevices%2FTEST_1&et=1837255523&method=md5&sign=L1DNKwgx4ns6yyIODi7bTA%3D%3D";
-    product_id  = "773E26dPR4";
+    token = PRODUCT_ONE_TOKEN;
+    product_id  = PRODUCT_ONE_ID;
 }
 
 equipment::equipment(){
@@ -71,17 +69,17 @@ QString defaultConfig::findEquipmentIndex(int* recv, QString id, QString name){
     return back;
 }
 
-void defaultConfig::setEquipmentValue(int index, QString valName, double val){
-    int index1;
-    for(index1 = 0; index1 < MAX_VALUE_NUM; index1++){
-        if(equipmentList[index].valueName[index1] == valName){
-            equipmentList[index].valueFbd[index1] = val;
-        }
-    }
-}
-
 void defaultConfig::errorCheck(QString err){
     if(err == "E001"){
         qDebug() << "找不到本地设备";
+    }
+}
+
+void equipment::setEquipmentValue(QString valname, double val){
+    int index;
+    for(index = 0; index < valueNum; index++){
+        if(valueName[index] == valname){
+            valueFbd[index] = val;
+        }
     }
 }

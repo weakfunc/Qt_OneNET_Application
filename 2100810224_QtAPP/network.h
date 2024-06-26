@@ -13,54 +13,41 @@
 #define HEADER_NUM 5
 #define PROTOCAL_NUM 1
 
-class packageParam{
-public:
-    QString time;
-    QString equipmentId;
-    QString equipmentName;
-    QString valueName;
-    double valueFbd;
-    QString msg;
-    QString requestId;
-};
-
 //ONENET云平台api索引
-enum ONENET_Function{
+enum function{
     getDataStream = 0,
+    getDeviceDetail,
 };
 //ONENET云平台头固定字段索引
-enum ONENET_Header{
+enum hearder{
     product_id = 0,
     device_name,
     authorization,
 };
 //ONENET云平台头解包协议索引
-enum ONENET_Unpackage{
+enum unpackageMode{
     fromJson = 0,
 };
 class network
 {
-
 public:
-    int apiFunc;
+    function apiFuc;
     QByteArray api[API_NUM];            //云平台api接口
     QByteArray header[HEADER_NUM];      //http包中的固定字段
 
     network();
-    void (*unPackage[PROTOCAL_NUM])(packageParam *package, QString rcivBuff);
-};
+    QString getURL(function apiindex, QByteArray product_id, QString device_name);
 
-class network_ONENET: public network{
-public:
-    network_ONENET();
-    void sendData(ONENET_Function apiIndex);
-    void receiveData(ONENET_Function apiIndex, QString qstrReply);
-    QString getURL(ONENET_Function apiIndex, QByteArray product_id, QString device_name);
+    void (*unPackage[PROTOCAL_NUM])(equipment *package, QString rcivBuff);
+    void sendGetDataStream(QNetworkAccessManager* manager, QByteArray productid, QString productname);
+    void sendGetDeviceDetail(QNetworkAccessManager* manager, QByteArray productid, QString productname);
+
+    void receiveData(function apiIndex, QString qstrReply, defaultConfig proudct = productOneConfig);
 
 };
 
-void ONENET_UnPackage_JSON(packageParam *package, QString rcivBuff);
+void ONENET_UnPackage_JSON(equipment *package, QString rcivBuff);
 
-extern network_ONENET onenet;
+extern network onenet;
 
 #endif // NETWORK_H
