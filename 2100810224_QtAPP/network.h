@@ -37,13 +37,10 @@ public:
 
     network();
     QString getURL(function apiindex, QByteArray product_id, QString device_name);
-
     void (*unPackage[PROTOCAL_NUM])(equipment *package, QString rcivBuff);
     void sendGetDataStream(QNetworkAccessManager* manager, QByteArray productid, QString productname);
     void sendGetDeviceDetail(QNetworkAccessManager* manager, QByteArray productid, QString productname);
-
     void receiveData(function apiIndex, QString qstrReply, defaultConfig proudct = productOneConfig);
-
 };
 
 void ONENET_UnPackage_JSON(equipment *package, QString rcivBuff);

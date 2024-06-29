@@ -1,6 +1,7 @@
 #qt包含的模块
 QT       += core gui
 QT       += network
+QT       += charts
 QMAKE_CXXFLAGS += -Wno-unused-parameter
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets     #大于4版本以上 包含weight模块

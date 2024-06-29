@@ -80,33 +80,47 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/common/g++-win32.conf \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/common/windows-desktop.conf \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/qconfig.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_archive.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_freetype.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_libjpeg.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_libpng.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_yaml.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3danimation.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3danimation_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dcore.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dcore_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dextras.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dextras_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dinput.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dinput_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dlogic.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dlogic_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquick.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquick_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickanimation.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickextras.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickextras_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickinput.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickinput_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickrender.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickrender_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3drender.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3drender_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_activeqt.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_activeqt_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_application_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_common_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_crypto_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_dbus_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_intent_client_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_intent_server_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_launcher_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_main_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_manager_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_monitor_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_notification_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_package_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_plugininterfaces_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_shared_main_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_window_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axbase_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axcontainer.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axcontainer_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axserver.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axserver_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_bluetooth.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_bodymovin_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_charts.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_charts_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_chartsqml.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_concurrent.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_core.pri \
@@ -129,6 +143,8 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_freetype_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_graphs.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_graphs_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_grpc.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_grpc_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_gui.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_gui_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_harfbuzz_private.pri \
@@ -136,6 +152,10 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_help_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_httpserver.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_httpserver_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttracker.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttracker_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_jpeg_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_jsonrpc_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_labsanimation.pri \
@@ -153,20 +173,45 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_languageserver_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_linguist.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_mqtt.pri \
-		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_mqtt_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_location.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_location_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimedia.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_network.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_network_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_networkauth.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_networkauth_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_nfc.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_nfc_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_opengl.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_opengl_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_openglwidgets.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdf.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdf_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfquick.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfquick_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfwidgets.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfwidgets_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_png_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioning.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioning_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioningquick.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioningquick_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_printsupport.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_printsupport_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobuf.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobuf_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate_private.pri \
@@ -215,8 +260,13 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dparticles.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysics.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysics_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dutils.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dutils_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick_private.pri \
@@ -263,6 +313,16 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quicktimeline_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjects.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjects_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_repparser.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_repparser_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxml.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxml_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxmlqml.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxmlqml_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sensors.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sensors_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sensorsquick.pri \
@@ -273,8 +333,14 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_serialport_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_shadertools.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sql.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sql_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachine.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachine_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachineqml.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachineqml_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_svg.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_svg_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_svgwidgets.pri \
@@ -287,8 +353,20 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_uiplugin.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_uitools.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_uitools_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboardsettings.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboardsettings_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannel.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannel_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannelquick.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannelquick_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_websockets.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_websockets_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webview.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webview_private.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webviewquick.pri \
+		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webviewquick_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_widgets.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_widgets_private.pri \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_xml.pri \
@@ -325,7 +403,10 @@ Makefile: ../../2100810224_QtAPP.pro D:/App_master/QT6/6.6.3/mingw_64/mkspecs/wi
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/features/yacc.prf \
 		D:/App_master/QT6/6.6.3/mingw_64/mkspecs/features/lex.prf \
 		../../2100810224_QtAPP.pro \
+		D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Charts.prl \
+		D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6OpenGLWidgets.prl \
 		D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Widgets.prl \
+		D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6OpenGL.prl \
 		D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Gui.prl \
 		D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Network.prl \
 		D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Core.prl \
@@ -344,33 +425,47 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/common/windows-vulkan.conf:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/common/g++-win32.conf:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/common/windows-desktop.conf:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/qconfig.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_archive.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_freetype.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_libjpeg.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_libpng.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_ext_yaml.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3danimation.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3danimation_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dcore.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dcore_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dextras.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dextras_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dinput.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dinput_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dlogic.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dlogic_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquick.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquick_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickanimation.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickextras.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickextras_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickinput.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickinput_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickrender.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickrender_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3drender.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_3drender_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_activeqt.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_activeqt_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_application_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_common_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_crypto_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_dbus_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_intent_client_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_intent_server_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_launcher_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_main_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_manager_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_monitor_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_notification_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_package_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_plugininterfaces_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_shared_main_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_appman_window_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axbase_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axcontainer.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axcontainer_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axserver.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_axserver_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_bluetooth.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_bluetooth_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_bodymovin_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_charts.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_charts_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_chartsqml.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_chartsqml_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_concurrent.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_concurrent_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_core.pri:
@@ -393,6 +488,8 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_fb_support_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_freetype_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_graphs.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_graphs_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_grpc.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_grpc_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_gui.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_gui_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_harfbuzz_private.pri:
@@ -400,6 +497,10 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_help.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_help_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_httpserver.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_httpserver_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttracker.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttracker_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_insighttrackerqml_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_jpeg_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_jsonrpc_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_labsanimation.pri:
@@ -417,20 +518,45 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh_privat
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_languageserver_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_linguist.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_mqtt.pri:
-D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_mqtt_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_location.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_location_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimedia.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_network.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_network_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_networkauth.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_networkauth_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_nfc.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_nfc_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_opengl.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_opengl_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_openglwidgets.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_openglwidgets_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_packetprotocol_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdf.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdf_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfquick.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfquick_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfwidgets.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_pdfwidgets_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_png_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioning.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioning_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioningquick.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_positioningquick_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_printsupport.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_printsupport_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobuf.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobuf_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtcoretypes_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufqtguitypes_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_protobufwellknowntypes_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_qdoccatch_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_qdoccatchconversionsprivate_private.pri:
@@ -479,8 +605,13 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dparticleeffects.p
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dparticleeffects_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dparticles.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dparticles_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysics.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysics_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dphysicshelpers_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dutils.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick3dutils_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quick_private.pri:
@@ -527,6 +658,16 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quicktimeline.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quicktimeline_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjects.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjects_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_remoteobjectsqml_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_repparser.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_repparser_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxml.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxml_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxmlqml.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_scxmlqml_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sensors.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sensors_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sensorsquick.pri:
@@ -537,8 +678,14 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_serialport.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_serialport_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_shadertools.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sql.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_sql_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachine.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachine_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachineqml.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_statemachineqml_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_svg.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_svg_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_svgwidgets.pri:
@@ -551,8 +698,20 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_tools_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_uiplugin.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_uitools.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_uitools_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboardsettings.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_virtualkeyboardsettings_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannel.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannel_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannelquick.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webchannelquick_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_websockets.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_websockets_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webview.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webview_private.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webviewquick.pri:
+D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_webviewquick_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_widgets.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_widgets_private.pri:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/modules/qt_lib_xml.pri:
@@ -589,7 +748,10 @@ D:/App_master/QT6/6.6.3/mingw_64/mkspecs/features/exceptions.prf:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/features/yacc.prf:
 D:/App_master/QT6/6.6.3/mingw_64/mkspecs/features/lex.prf:
 ../../2100810224_QtAPP.pro:
+D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Charts.prl:
+D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6OpenGLWidgets.prl:
 D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Widgets.prl:
+D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6OpenGL.prl:
 D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Gui.prl:
 D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Network.prl:
 D:/App_master/QT6/6.6.3/mingw_64/lib/Qt6Core.prl:

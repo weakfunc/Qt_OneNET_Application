@@ -16,6 +16,10 @@
 #include <QTextEdit>
 #include "defaultconfig.h"
 #include "network.h"
+#include <QChartView>
+#include <QtCharts>
+#include <QChart>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -27,9 +31,17 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void createChart();
 private:
     Ui::MainWindow *ui;
     QNetworkAccessManager *m_manager;
+
+private:
+    QChart *m_Chart;//创建画布
+    QDateTimeAxis *m_axisX;//横坐标（时间）
+    QValueAxis *m_axisY;//纵坐标（温度）
+    QSplineSeries *m_chLoadSerise;//温度曲线
+
 private slots:
     void slot_receive_dataStream(QNetworkReply *reply);
     void pushButton_0();

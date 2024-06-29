@@ -97,9 +97,9 @@ void network::receiveData(function apiIndex, QString qstrReply, defaultConfig pr
 void ONENET_UnPackage_JSON(equipment *package, QString rcivBuff){
     QJsonParseError err;
     QJsonDocument json_Recv = QJsonDocument::fromJson(rcivBuff.toUtf8(),&err);
-    //测试整体JSON包内容
-    //       QString temp1 = json_Recv.toJson(QJsonDocument::Compact);
-    //       qDebug()<<temp1;
+//    测试整体JSON包内容
+          QString temp1 = json_Recv.toJson(QJsonDocument::Compact);
+          qDebug()<<temp1;
     if(!json_Recv.isNull()){
         QJsonObject object_All = json_Recv.object();
         if(object_All.contains("data")){
